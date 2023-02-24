@@ -1,9 +1,9 @@
 class Matrix
   def initialize(message)
     @matrix = message
-								.split("\n")
-								.map(&:split)
-								.map {|row| row.map(&:to_i) }
+                .split("\n")
+                .map(&:split)
+                .map {|row| row.map(&:to_i) }
   end
 
   def rows
